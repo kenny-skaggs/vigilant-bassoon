@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vigilant-bassoon"
+version = "0.1.0"
+description = ""
+authors = ["kenny-skaggs <skaggskd88@gmail.com>"]
+readme = "README.md"
+packages = [{include = "vigilant_bassoon"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.99.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
